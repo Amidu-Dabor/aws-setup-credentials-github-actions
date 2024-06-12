@@ -10,7 +10,7 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - uses: aws-actions/configure-aws-credentials@v1
+      - uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::295793222430:role/github-actions-oidc-practice
           aws-region: us-east-3
